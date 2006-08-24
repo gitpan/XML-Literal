@@ -5,9 +5,7 @@ use strict;
 use warnings;
 use File::Glob ();
 
-$XML::Literal::VERSION = '0.01';
-
-use Sub::Override;
+$XML::Literal::VERSION = '0.02';
 
 sub import {
     my $class       = shift;
